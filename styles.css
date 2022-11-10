@@ -1,6 +1,6 @@
 * {
     font-family: 'roboto', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    
+    box-sizing: border-box;
 }
 
 .header-section {
@@ -33,10 +33,12 @@
 }
 
 .header-logo {
+    display: flex;
+    gap: 10px;
     font-size: 24px;
     font-weight:bolder;
     color: #F9FAF8;
-
+    align-items: center;
 }
 
 /* .header-section span {
@@ -49,7 +51,6 @@
     background-color: #1f2937;
     color: #E5E7EB;
     margin: -8px -8px;
-
 }
 
 .top-container {
@@ -70,8 +71,8 @@
     /* outline: 3px solid red; */
 }
 
-.top-item left-item {
-    align-items: center;
+.left-side * {
+    margin: 15px 0px;
 }
 
 #main-img {
@@ -82,8 +83,77 @@
 
 .sign-up-button {
     padding: 10px 25px;
-    /* background-color: #3882F6; */
+    background-color: #3882F6;
     border: 0px;
-    /* color: #E5E7EB; */
+    color: #E5E7EB;
+    border-radius: 25px;
     font-size: large;
+}
+
+.info-section {
+    display: flex;
+    justify-content: center;
+    /* outline: 3px solid red; */
+    margin: 40px -8px;
+    
+}
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 70%;
+    /* gap: 20px; */
+}
+
+.info-pictures {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* outline: 3px solid red; */
+    max-width: 70%;
+    gap: 60px;
+    
+}
+
+.info-item {                /* controls container for each pic item and text */
+    display:flex;
+    flex-basis: 400px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    /* padding: 20px; */
+    gap: 5px;
+    
+}
+
+
+
+.info-item span {
+    padding: 0px 10px;
+}
+
+.info-pic {                 /* controls info pics */
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 5px solid #3882F6;
+    border-radius: 20px;
+}
+
+.info-pic.pic3 {
+    object-position: -80px;;
+}
+
+.info-pic.pic4 {
+    object-position: -60px;
+}
+
+#Catalog-Heading {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 1000;
+    color: #1f2937;
 }
