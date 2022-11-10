@@ -1,6 +1,5 @@
 * {
     font-family: 'roboto', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    box-sizing: border-box;
 }
 
 .header-section {
@@ -90,6 +89,10 @@
     font-size: large;
 }
 
+button:hover {
+    background-color: #3881f6c4;
+}
+
 .info-section {
     display: flex;
     justify-content: center;
@@ -104,29 +107,24 @@
     justify-content: center;
     align-items: center;
     max-width: 70%;
-    /* gap: 20px; */
+    gap: 20px;
 }
 
 .info-pictures {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content:space-around;
     /* outline: 3px solid red; */
-    max-width: 70%;
-    gap: 60px;
-    
 }
 
 .info-item {                /* controls container for each pic item and text */
     display:flex;
-    flex-basis: 400px;
+    flex-basis: 4px;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
     text-align: center;
-    /* padding: 20px; */
-    gap: 5px;
-    
+    gap: 15px;
 }
 
 
@@ -156,4 +154,8 @@
     font-size: 36px;
     font-weight: 1000;
     color: #1f2937;
+}
+
+.pic-desc {
+    color: rgb(64, 64, 64);
 }
