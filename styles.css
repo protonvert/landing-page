@@ -97,7 +97,7 @@ button:hover {
     display: flex;
     justify-content: center;
     /* outline: 3px solid red; */
-    margin: 40px -8px;
+    margin: 8rem -8px;
     
 }
 
@@ -126,8 +126,6 @@ button:hover {
     text-align: center;
     gap: 15px;
 }
-
-
 
 .info-item span {
     padding: 0px 10px;
@@ -158,4 +156,38 @@ button:hover {
 
 .pic-desc {
     color: rgb(64, 64, 64);
+}
+
+section.quote-block {
+    display: flex;
+    justify-content: center;
+    background-color: #E5E7EB;
+}
+
+.quote-container {
+    display: flex;
+    margin: 10rem;
+    max-width: 70%;
+    /* outline: 3px solid red; */
+    flex-direction: column;
+    text-align: center;
+}
+
+.quote-paragraph {
+    display: flex;
+
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    /* outline: 3px solid red; */
+}
+
+.quote-container #author {
+    /* outline: 3px solid red; */
+    /* align-items: center; */
+    align-self: flex-end;
+    font-size: 28px;
+    /* font-style: bold; */
+    font-weight: 1000;
+    color: #1f2937;
 }
