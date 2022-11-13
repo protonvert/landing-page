@@ -132,8 +132,8 @@ button:hover {
 }
 
 .info-pic {                 /* controls info pics */
-    width: 200px;
-    height: 200px;
+    width: 220px;
+    height: 220px;
     object-fit: cover;
     border: 5px solid #3882F6;
     border-radius: 20px;
@@ -149,7 +149,8 @@ button:hover {
 
 #Catalog-Heading {
     text-align: center;
-    font-size: 36px;
+    /* padding: 0px 0px 60px 0px; */
+    font-size: 46px;
     font-weight: 1000;
     color: #1f2937;
 }
@@ -162,7 +163,10 @@ section.quote-block {
     display: flex;
     justify-content: center;
     background-color: #E5E7EB;
-}
+    Sale is almost up! Buy now!
+    
+    Sign up for our products by clicking the button to the right!
+    
 
 .quote-container {
     display: flex;
@@ -184,9 +188,6 @@ section.quote-block {
 }
 
 .quote-container #author {
-    margin: -40px 0px 0px 0px;
-    /* outline: 3px solid red; */
-    /* align-items: center; */
     align-self: flex-end;
     font-size: 36px;
     /* font-style: bold; */
@@ -198,19 +199,18 @@ section.quote-block {
     display: flex;
     justify-content: center;
     width: 70%;
-    padding: 80px 0px;
+    padding: 100px 0px;
     margin: auto;
 }
 
 .action-container {
     display:flex;
-    flex-direction: row;
-    flex-basis: 60%;
+    flex-basis: 50%;
     max-width: 70%;
     /* outline: 3px solid red; */
     align-items: center;
-    justify-content: center;
-    padding: 18px 0px;
+    /* justify-content: center; */
+    padding: 18px 60px;
     background-color: #3882F6;
     border-radius: 10px;
     
@@ -224,16 +224,30 @@ section.quote-block {
 .action-container * {
     padding: 0px;
     margin: 10px;
-    color: white;
+    color: #E5E7EB;
 }
 
 .action button {
     border: 1px solid white;
-    margin: 0px 0px 0px 50px;
+    margin: 0px 0px 0px 160px;
     padding: 10px 40px;
     border-width: 2px;
 }
 
 .action button:hover {
     background-color: #4b90ff;
+}
+
+a:link {
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #1f2937;
+    padding: 40px 0px;
+    margin: -8px -8px;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
 }
